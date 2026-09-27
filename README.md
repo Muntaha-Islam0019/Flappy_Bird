@@ -1,18 +1,17 @@
 # Flappy Bird
 
+A remake of Flappy Bird for Android, built in Java with libGDX in 2019.
+
 Won **Best Android Project of Workshop 2019** (Battery Low Interactive Limited, BRAC University).
 
-According to Wikipedia, flappy Bird is a mobile game developed by Vietnamese video game artist and programmer Dong Nguyen
-(Vietnamese: Nguyễn Hà Đông),under his game development company dotGears. The game is a side-scroller where the player
-controls a bird, attempting to flybetween columns of green pipes without hitting them. Nguyen created the game over the
-period of several days, using a bird protagonist that he had designed for a cancelled game in 2012.
+Tap to flap and fly through the gaps between the pipes. Hitting a pipe or the ground sends you back to the menu. The bird is animated, every tap plays a wing sound, background music loops, and the pipes keep recycling, so a run only ends when you crash.
 
-The game was released in May 2013 but received a sudden rise in popularity in early 2014. Flappy Bird received poor reviews
-from some critics, who criticized its high level of difficulty, plagiarism in graphics and game mechanics, while other
-reviewers found it addictive. At the end of January 2014, it was the most downloaded free game in the App Store for iOS.
-During this period, its developer said that Flappy Bird was earning $50,000 a day from in-app advertisements as well as sales.
+The original Flappy Bird is a 2013 side-scroller by Vietnamese developer Dong Nguyen that went viral in early 2014.
 
-This project is basically the remake of Flappy Bird using libGDX. Probably I won't update it anymore, though if someone wants
-to fork it and add more functionalities, he/she's more than welcome.
+## Project layout
 
-Thank you for visiting here.
+| Module | What's in it |
+|---|---|
+| `core/` | The game itself: menu and play states, bird and pipe sprites |
+| `android/` | Android launcher and all the game assets |
+| `desktop/` | Desktop launcher for testing on a PC |
